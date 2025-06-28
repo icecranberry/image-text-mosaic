@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ImageProcessor from '../components/ImageProcessor.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/image-text-mosaic/'),
   routes: [
     {
       path: '/',
